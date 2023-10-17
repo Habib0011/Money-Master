@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Calculation</title>
+    <link rel="shortcut icon" href="images/49144.jpg" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <h1 class="text-5xl text-green-800 text-center  mb-12">Money Master</h1>
+
+    <main class="grid grid-cols-2 gap-2 mx-auto w-3/4 mt-6">
+         
+        <section>
+            <img src="images/49144.jpg" alt="" class="h-screen">
+        </section>
+            <div class="bg-gray-300 p-4">
+                <h2 class="text-center text-3xl mb-4">
+                    income
+                </h2>
+                <p class="text-center text-xl mb-4" >income:<input id="income-field" type="text" placeholder="Money" class="p-2 "></p>
+                <h2 class="text-center text-3xl ">
+                    Expenses
+                </h2>
+                <p class="text-center text-xl mt-4" >Food:<input id="food-field" type="text" placeholder="Money" class="p-2 ml-4"></p>
+                <p class="text-center text-xl mt-4" >Rent:<input id="rent-field"  type="text" placeholder="Money" class="p-2 ml-6"></p>
+                <p class="text-center text-xl mt-4" >Clothes:<input id="cloth-field"  type="text" placeholder="Money" class="p-2"></p>
+                <p class="text-center">
+                <button id="Calculation" class="bg-sky-600 p-3 text-white rounded font-bold text-xl mt-6">Calculate</button>
+                </p>
+                <h2 class="text-center text-3xl my-4 ">
+                    Total Expense : <span id="expence"> 5500</span>
+                </h2>
+                <h2 class="text-center text-3xl my-4 ">
+                    Balance:<span id="balance">4500</span>
+                </h2>
+                <p class="text-center"><input id="savings-input-field" class="bg-gray-400 p-2  text-white w-20 font-bold  mt-6 mx-4">
+                <span>%</span>
+                <button class="bg-sky-500 p-3  px-12 text-white rounded font-bold mx-4 mt-6" id="save">Save</button></p>
+                <h2 class="text-center text-3xl my-4 ">
+                    Saving Ammount: <span id="saving-money">2000</span>
+                </h2>
+                <h2 class="text-center text-3xl my-4 ">
+                    Remaining Balance: <span id="remaining-value">2500 </span>
+                </h2>
+            </div>
+        </section>
+    </main>
+    <br><br><br><br>
+
+    <script src="js/balanceCal.js"></script>
+</body>
+</html>
